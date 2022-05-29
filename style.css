@@ -3,6 +3,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 header, footer{
     background-color: #1f2937 ;
     color: white;
