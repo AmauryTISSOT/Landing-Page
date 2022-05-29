@@ -13,3 +13,13 @@ header, footer{
     color: #f9faf8;
     font-weight: bold;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
