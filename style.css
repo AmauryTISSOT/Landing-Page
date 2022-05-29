@@ -6,11 +6,24 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 header, footer{
     background-color: #1f2937 ;
     color: white;
+    display: flex;
+    align-items: center;
+}
+
+header{
+    justify-content: space-between;
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+footer {
+    justify-content: center;
 }
 
 .logo {
@@ -21,10 +34,13 @@ header, footer{
 
 ul {
     list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 24px;
+    font-size: 18px;
 }
 
 a {
     text-decoration: none;
     color: #e5e7eb;
-    font-size: 18px;
-}
+    }
